@@ -1,0 +1,172 @@
+@media screen and (min-width: 1200px) {
+	.uk-card-body {
+	    padding: 25px 40px; } 
+}
+
+@media screen and (max-width: 1200px) {
+	.b-backtotop {
+	    width: 40px;
+	    height: 40px; 
+	}
+	.b-logos-p {
+	    padding-top: 30px;
+	}
+}
+@media screen and (min-width: 960px) {
+	.uk-navbar-left.menu {
+		display: none!important;
+	}
+}
+
+@media screen and (min-width: 730.1px) {
+	.b-profile {
+		top: 80px!important;
+	}
+}
+
+@media screen and (max-width: 959.9px) {
+	.b-logos-p {
+	    text-align: center;
+	    padding-top: 0px;
+	}
+	.b-quick-links {
+	    border-right: 0px solid #888;
+	}
+	.uk-navbar-left.admin {
+		width: inherit!important;
+		margin-right: 10px!important;
+	}
+	.uk-navbar-left.menu {
+		display: flex!important;
+	}
+	.b-submenu {
+		left: 0px!important;
+		top: 0px!important;
+		position: relative!important;
+		width: 100%!important;
+	}
+	.b-submenu ul li a {
+		text-align: center!important;
+	}
+	 /* Theme color */
+	.b-left-menu ul li div.uk-navbar-dropdown ul li a {
+	    border-left: 0px solid #6b5c1c!important;
+	    border-right: 0px solid #6b5c1c!important;
+	    transition: border-left 0.2s linear, border-right 0.2s linear;
+	}
+	.b-left-menu ul li div.uk-navbar-dropdown ul li:hover a {
+	    border-left: 6px solid #6b5c1c!important;
+	    border-right: 6px solid #6b5c1c!important;
+	}
+	.b-left-menu ul li a.active,
+	.b-left-menu ul li div.uk-navbar-dropdown ul li a.active {
+	    color: #6b5c1c!important;
+	    background-color: #6b5c1c09!important;
+	}
+	.b-left-menu ul li div.uk-navbar-dropdown ul li a.active {
+	    border-left: 6px solid #6b5c1c!important;
+	    border-right: 6px solid #6b5c1c!important;
+	}
+	/*************/
+
+	.b-menuhide {
+		display: none;
+	}
+	
+}
+
+@media screen and (max-width: 730px) {
+	#b-accessibility {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.b-accessibility-left,
+	.b-accessibility-right {
+		width: 100%;
+	}
+	.b-accessibility-left .b-acc-goi,
+	.b-accessibility-left .b-acc-ministry {
+		width: 48%;
+	}
+
+	.b-accessibility-right .b-accessibility-right-in {
+		text-align: center;
+    	display: block;
+	}
+	.b-accessibility-right-in .acc-icon {
+		display: inline-block;
+	}
+
+	.emblem-img {
+		width: 36px;
+	}
+	.b-header {
+	    height: 80px;
+	}
+	.b-ministryname {
+	    padding-left: 10px;
+	    font-size: 14px;
+	}
+	.nic-logo {
+	    width: 70%;
+	}
+	.uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle {
+	    min-height: 60px;
+	}
+	.banner-p {
+		padding: 10px 10px 30px;
+	}
+	.banner-p h3 {
+		font-size: 20px;
+	}
+	.banner-p p {
+		font-size: 14px;
+	}
+	.uk-dotnav>*>* {
+	    display: block;
+	    box-sizing: border-box;
+	    width: 6px;
+	    height: 6px;
+	}
+	.b-ham-menu {
+		display: block;
+	}
+	.b-home {
+	    padding-left: 0px!important;
+	}
+}
+
+
+@media screen and (max-width: 540px) {
+	#b-header {
+		padding: 5px 5px 5px 30px;
+	}
+	.b-ministryname {
+	    padding-left: 10px;
+	    font-size: 13px;
+	}
+	.b-mobile-menu {
+	    display: block;
+	}
+	.b-web-menu {
+    	display: none;
+	}
+	.b-quick-links ul li {
+	    width: 100%;
+	    display: block;
+	    text-align: center;
+	    padding-left: 10px;
+	}
+	.banner-p {
+		/* display: none; */
+		padding-top: 5px;
+		padding-bottom: 15px;
+	}
+	.banner-p h3 {
+		font-size: 14px;
+	}
+	.banner-p p {
+		font-size: 11px;
+	}
+}
+
